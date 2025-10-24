@@ -6,7 +6,9 @@ import toast from "react-hot-toast";
 import { Send, User } from "lucide-react";
 import { motion } from "framer-motion";
 
-const socket = io(import.meta.env.VITE_BACKEND_URL || "http://localhost:5000");
+const socket = io(import.meta.env.VITE_BACKEND_URL || "http://localhost:5000", {
+  transports: ["websocket"],
+});
 
 export default function Chat() {
   const { userId } = useParams();
