@@ -5,7 +5,7 @@
 ---
 
 ### 🚀 Live Demo
-🔗 **Frontend:** [https://skillswap-frontend.vercel.app](https://skillswap-frontend.vercel.app)  
+🔗 **Frontend:** [https://skill-swaping-frontend.vercel.app](https://skillswap-frontend.vercel.app)  
 🔗 **Backend API:** [https://skillswap-backend.onrender.com](https://skillswap-backend.onrender.com)
 
 ---
